@@ -36,7 +36,7 @@ export default function Projects() {
 							byHref="https://phenomstudios.ca"
 							description="Dynamic company website page for Phenom Studios Inc."
 							tags={["devicon-react-plain", "devicon-javascript-plain", "devicon-tailwindcss-original"]}
-							pageHref="https://canadianbanker.ca"
+							pageHref="https://phenomstudios.ca"
 						/>
 						<ProjectCard
 							imgSrc="/images/cbthumbnail.png"
