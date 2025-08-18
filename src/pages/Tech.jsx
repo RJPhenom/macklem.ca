@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Tech() {
 	return (
-		<div className="w-full">
-			<div className="mx-auto max-w-5xl px-6 py-10">
+		<div className="w-full h-full">
+			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[30svh] pb-4">
 				<h1 className="text-4xl sm:text-6xl font-extralight !tracking-[.3em] text-center">TECH</h1>
 
 				<div className="mt-6 text-center">
@@ -15,7 +15,7 @@ export default function Tech() {
 					</Link>
 				</div>
 
-				<div className="grid grid-cols-3 mt-24 md:grid-cols-6 gap-8 text-6xl place-items-center">
+				<div className="grid grid-cols-3 mt-24 md:grid-cols-6 gap-8 mb-6 text-6xl place-items-center">
 					<i className="devicon-unrealengine-plain"></i>
 					<i className="devicon-unity-plain"></i>
 					<i className="devicon-godot-plain"></i>

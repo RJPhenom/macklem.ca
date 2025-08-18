@@ -47,13 +47,13 @@ export default function App() {
 				{/* PFP + Socials/Contact */}
 				<div className="flex flex-col md:flex-row gap-3 md:gap-15">
 					<div>
-						<div className="flex flex-col items-center gap-2">
+						<div className="flex flex-col items-center">
 							<img
 								src={PFP}
 								alt="RJ Macklem"
-								className="w-45 h-45 object-cover bg-zinc-800 p-2 rounded-full"
+								className="w-45 h-45 object-cover ring ring-zinc-500 p-1 mb-2 rounded-full"
 							/>
-							<div className="flex flex-row gap-6 text-md md:text-xl justify-center mt-6 bg-zinc-800 rounded-full py-2 px-4">
+							<div className="flex flex-row gap-6 text-xl justify-center rounded-full py-2 px-4">
 								<a
 									href="https://github.com/RJPhenom"
 									target="_blank"
@@ -114,7 +114,7 @@ export default function App() {
 				</div>
 
 				{/* Nav/Routes */}
-				<div className="flex flex-col gap-2 py-6 items-center text-xl font-thin tracking-widest">
+				<div className="flex flex-col gap-2 py-4 items-center text-xl font-thin tracking-widest">
 					<Link
 						to="/cv"
 						className="hover:underline"
@@ -139,7 +139,7 @@ export default function App() {
 			{/* Slide-in panel (route-controlled) */}
 			<div
 				className={[
-					"fixed inset-0 z-10 bg-black/85 backdrop-blur-sm",
+					"fixed inset-0 z-10 bg-black/90 backdrop-blur-sm",
 					"transform transition-transform duration-500 ease-out",
 					panelOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none",
 					// NEW: center + allow scrolling if content is tall
