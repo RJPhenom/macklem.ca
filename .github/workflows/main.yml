@@ -36,17 +36,14 @@ jobs:
             - name: Build
               run: npm run build
 
-            # hard stop if the artifact isn't a Vite build (prevents raw /src/*.jsx being served)
             - name: Verify build output
               run: |
                   test -f dist/index.html
                   grep -q "/assets/" dist/index.html
 
-            # SPA fallback for React Router deep-links
             - name: SPA fallback
               run: cp dist/index.html dist/404.html
 
-            # ensure custom domain is included in the artifact
             - name: Ensure CNAME
               run: echo "macklem.ca" > dist/CNAME
 
