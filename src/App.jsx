@@ -114,7 +114,7 @@ export default function App() {
 				</div>
 
 				{/* Nav/Routes */}
-				<div className="flex flex-col gap-2 py-4 items-center text-xl font-thin tracking-widest">
+				<div className="flex flex-col gap-2 py-4 items-center text-2xl font-extralight tracking-widest">
 					<Link
 						to="/cv"
 						className="hover:underline"
