@@ -4,18 +4,17 @@ export default function Tech() {
 	return (
 		<div className="w-full h-full">
 			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[30svh] pb-4">
-				<h1 className="text-4xl sm:text-6xl font-extralight !tracking-[.3em] text-center">TECH</h1>
-
-				<div className="mt-6 text-center">
+				<h1 className="text-8xl sm:text-8xl font-medium mb-6">Tech</h1>
+				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="text-base sm:text-lg font-extralight hover:underline"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 border border-black hover:bg-black/10 transition"
 					>
 						&larr; Back
 					</Link>
 				</div>
 
-				<div className="grid grid-cols-3 mt-24 md:grid-cols-6 gap-8 mb-6 text-6xl place-items-center">
+				<div className="grid grid-cols-3 mt-16 md:grid-cols-6 gap-8 mb-6 text-6xl place-items-center">
 					<i className="devicon-unrealengine-plain"></i>
 					<i className="devicon-unity-plain"></i>
 					<i className="devicon-godot-plain"></i>

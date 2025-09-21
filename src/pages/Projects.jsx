@@ -10,12 +10,11 @@ export default function Projects() {
 	return (
 		<div className="w-full h-full">
 			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[30svh] pb-16">
-				<h1 className="text-4xl sm:text-6xl font-extralight !tracking-[.3em] text-center">PROJECTS</h1>
-
-				<div className="mt-6 text-center">
+				<h1 className="text-7xl sm:text-8xl font-medium mb-12">Projects</h1>
+				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="text-base sm:text-lg font-extralight hover:underline mr-3"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 border border-black hover:bg-black/10 transition"
 					>
 						&larr; Back
 					</Link>
@@ -40,8 +39,8 @@ export default function Projects() {
 						/>
 						<ProjectCard
 							imgSrc="/images/cbthumbnail.png"
-							imgAlt="NETDECK preview"
-							title="Canadian Banker"
+							imgAlt="Canadian Banker.ca preview"
+							title="Canadian Banker.ca"
 							byline="canadianbanker.ca"
 							byHref="https://canadianbanker.ca"
 							description="A website for the Canadian Banker podcast featuring John Turley-Ewart."
@@ -72,9 +71,9 @@ export default function Projects() {
 							description="An action-RTS framework for Unreal Engine 5. "
 							tags={["devicon-unrealengine-plain", "devicon-cplusplus-plain"]}
 							pageHref="https://github.com/RJPhenom/SeinARTS"
-							buttonLabel="< Code >"
+							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-300"
+							buttonHoverColour="hover:bg-emerald-700"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/ForceMate"
@@ -90,9 +89,9 @@ export default function Projects() {
 								"devicon-json-plain",
 							]}
 							pageHref="https://github.com/RJPhenom/ForceMate"
-							buttonLabel="< Code >"
+							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-300"
+							buttonHoverColour="hover:bg-emerald-700"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/NETDECK"
@@ -103,9 +102,9 @@ export default function Projects() {
 							description="A text-based Cyberpunk detective game."
 							tags={["devicon-unity-plain", "devicon-csharp-plain", "devicon-json-plain"]}
 							pageHref="https://github.com/RJPhenom/NETDECK"
-							buttonLabel="< Code >"
+							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-300"
+							buttonHoverColour="hover:bg-emerald-700"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/NEUROWOLKE"
@@ -116,9 +115,9 @@ export default function Projects() {
 							description="A Cyberpunk Netrunner card game."
 							tags={["devicon-godot-plain"]}
 							pageHref="https://github.com/RJPhenom/NEUROWOLKE"
-							buttonLabel="< Code >"
+							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-300"
+							buttonHoverColour="hover:bg-emerald-700"
 						/>
 					</div>
 				</section>

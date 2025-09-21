@@ -10,17 +10,17 @@ export default function ProjectCard({
 	pageHref,
 	href,
 	buttonLabel = "Visit →",
-	buttonColour = "bg-blue-500",
-	buttonHoverColour = "hover:bg-blue-400",
+	buttonColour = "bg-cyan-500",
+	buttonHoverColour = "hover:bg-cyan-700",
 }) {
 	const linkHref = href || pageHref || codeHref || "#";
 
 	return (
 		<div className={"mx-auto w-full max-w-[552px]"}>
-			<div className="max-w-[552px] h-[167px] rounded-3xl ring-1 ring-zinc-800 overflow-hidden backdrop-blur-md">
+			<div className="max-w-[552px] h-[167px]">
 				<div className="h-full grid grid-cols-[167px_1fr] gap-4 p-4">
 					{/* Left: image */}
-					<div className="h-full w-[167px] overflow-hidden rounded-xl bg-zinc-800">
+					<div className="h-full w-[167px] overflow-hidden rounded-lg border bg-zinc-800">
 						{imgSrc ? (
 							<img
 								src={imgSrc}
