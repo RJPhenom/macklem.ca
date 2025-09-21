@@ -9,7 +9,7 @@ export default function CV() {
 				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 border border-black hover:bg-black/10 transition"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-cyan-500 hover:bg-cyan-700 transition"
 					>
 						&larr; Back
 					</Link>

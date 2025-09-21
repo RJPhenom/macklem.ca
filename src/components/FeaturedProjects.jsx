@@ -70,8 +70,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-unity-plain", "devicon-csharp-plain", "devicon-json-plain"]}
 						pageHref="https://phenomrj.itch.io/netdeck"
 						buttonLabel="Play →"
-						buttonColour="bg-red-400"
-						buttonHoverColour="hover:bg-red-500"
+						buttonColour="bg-red-500"
+						buttonHoverColour="hover:bg-red-600"
 					/>
 					<ProjectCard
 						imgSrc="https://img.itch.zone/aW1nLzIxMjIxMzk3LnBuZw==/315x250%23c/TpH1tQ.png"
@@ -83,8 +83,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-godot-plain"]}
 						pageHref="https://phenomrj.itch.io/neurowolke"
 						buttonLabel="Play →"
-						buttonColour="bg-red-400"
-						buttonHoverColour="hover:bg-red-500"
+						buttonColour="bg-red-500"
+						buttonHoverColour="hover:bg-red-600"
 					/>
 					<ProjectCard
 						imgSrc="https://img.itch.zone/aW1nLzEyMzc5ODI1LnBuZw==/315x250%23c/5inoHC.png"
@@ -96,8 +96,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-unity-plain", "devicon-csharp-plain"]}
 						pageHref="https://phenomstudios.itch.io/mechgoat-tojam-2023"
 						buttonLabel="Play →"
-						buttonColour="bg-red-400"
-						buttonHoverColour="hover:bg-red-500"
+						buttonColour="bg-red-500"
+						buttonHoverColour="hover:bg-red-600"
 					/>
 				</div>
 
@@ -105,7 +105,7 @@ export default function FeaturedProjects() {
 				<div className="md:col-span-2">
 					<Link
 						to="/projects"
-						className="inline-block rounded-xl my-2 md:my-5 px-5 py-2 text-white bg-red-400 hover:bg-red-500 transition mt-6"
+						className="inline-block rounded-xl my-2 md:my-5 px-5 py-2 text-white bg-red-500 hover:bg-red-600 transition mt-6"
 					>
 						Browse more projects →
 					</Link>
