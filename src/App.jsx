@@ -45,7 +45,7 @@ export default function App() {
 						</h1>
 					</div>
 					<p className="mt-6 px-12 md:px-3 text-justify md:text-center text-lg max-w-3xl mx-auto">
-						I’m a web and game dev who loves solving tricky problems with creative code. Being a young dad keeps me
+						I’m a web and game dev who loves solving tricky problems with creative code. Being a new dad keeps me
 						focused and motivated, and I bring that hustle into every project I take on.
 					</p>
 					<div className="flex justify-center items-center">
