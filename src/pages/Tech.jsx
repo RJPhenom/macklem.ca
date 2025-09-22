@@ -12,7 +12,7 @@ export default function Tech() {
 						experience in HTML5, CSS, and JavaScript. I'm always experimenting with new frameworks like Astro and
 						Flutter too.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
 						<i className="devicon-react-plain"></i>
 						<i className="devicon-tailwindcss-plain"></i>
 						<i className="devicon-typescript-plain"></i>
@@ -37,7 +37,7 @@ export default function Tech() {
 						I have led the Phenom Studios team at three back-to-back-to-back TOJams at George Brown College, and am
 						always looking forward to the next challenge.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
 						<i className="devicon-unrealengine-plain"></i>
 						<i className="devicon-unity-plain"></i>
 						<i className="devicon-godot-plain"></i>
@@ -54,7 +54,7 @@ export default function Tech() {
 						Whether its something new and agile like Python, or ancient tech like COBOL, I have a knack for picking up
 						new technologies quickly and applying them to whatever I'm working on.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
 						<i className="devicon-python-plain"></i>
 						<i className="devicon-dotnetcore-plain"></i>
 						<i className="devicon-docker-plain"></i>
