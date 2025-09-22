@@ -7,8 +7,8 @@ export default function FeaturedProjects() {
 			<h2 className="text-5xl md:text-7xl mb-6 md:mb-12 font-semibold tracking-wide">Some of my Projects...</h2>
 
 			<p className="mt-6 px-12 md:px-3 text-justify md:text-center text-lg max-w-3xl mx-auto  mb-6 md:mb-16 ">
-				Here are just a handlful of my recent and favourite projects. I work on both web and game dev, so there’s a mix of
-				responsive web repositories and my latest jam projects on itch.io.
+				I work on both web and game dev, so my projects include a mix of webapps, game frameworks, and my latest jam
+				projects on itch.io.
 			</p>
 
 			<div className="pl-6 mt-4 grid gap-0 sm:gap-6 md:grid-cols-2">

@@ -76,7 +76,7 @@ export default function App() {
 				>
 					{overlayNode}
 				</div>
-				<div className="mt-24 sm:mt-64 mb-4">
+				<div className="mt-24 sm:mt-24 mb-4">
 					<p className="text-sm text-center">Developed by RJ Macklem © 2025</p>
 				</div>
 			</div>

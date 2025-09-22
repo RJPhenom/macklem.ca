@@ -11,14 +11,6 @@ export default function Projects() {
 		<div className="w-full h-full">
 			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[12svh] pb-16">
 				<h1 className="text-7xl sm:text-8xl font-medium mb-12">Projects</h1>
-				<div className="flex justify-center items-center">
-					<Link
-						to="/"
-						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-400 hover:bg-red-300 transition"
-					>
-						&larr; Back
-					</Link>
-				</div>
 
 				{/* WEB */}
 				<section className="mt-16 sm:mt-24">
@@ -183,6 +175,14 @@ export default function Projects() {
 						/>
 					</div>
 				</section>
+				<div className="my-12 flex justify-center items-center">
+					<Link
+						to="/"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-400 hover:bg-red-300 transition"
+					>
+						&larr; Back
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

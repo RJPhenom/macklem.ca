@@ -25,3 +25,9 @@ body {
 	min-width: 320px;
 	min-height: 100vh;
 }
+
+/* Hanging indent for bullet lists */
+.hang {
+	padding-left: 1.25rem;
+	text-indent: -0.75rem;
+}
