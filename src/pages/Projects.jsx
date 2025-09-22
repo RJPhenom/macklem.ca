@@ -14,7 +14,7 @@ export default function Projects() {
 				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-400 hover:bg-red-500 transition"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-400 hover:bg-red-300 transition"
 					>
 						&larr; Back
 					</Link>
@@ -73,7 +73,7 @@ export default function Projects() {
 							pageHref="https://github.com/RJPhenom/SeinARTS"
 							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-700"
+							buttonHoverColour="hover:bg-emerald-300"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/ForceMate"
@@ -91,7 +91,7 @@ export default function Projects() {
 							pageHref="https://github.com/RJPhenom/ForceMate"
 							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-700"
+							buttonHoverColour="hover:bg-emerald-300"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/NETDECK"
@@ -104,7 +104,7 @@ export default function Projects() {
 							pageHref="https://github.com/RJPhenom/NETDECK"
 							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-700"
+							buttonHoverColour="hover:bg-emerald-300"
 						/>
 						<ProjectCard
 							imgSrc="https://opengraph.githubassets.com/1/RJPhenom/NEUROWOLKE"
@@ -117,7 +117,7 @@ export default function Projects() {
 							pageHref="https://github.com/RJPhenom/NEUROWOLKE"
 							buttonLabel="View Code →"
 							buttonColour="bg-emerald-500"
-							buttonHoverColour="hover:bg-emerald-700"
+							buttonHoverColour="hover:bg-emerald-300"
 						/>
 					</div>
 				</section>
@@ -140,7 +140,7 @@ export default function Projects() {
 							pageHref="https://phenomrj.itch.io/netdeck"
 							buttonLabel="Play →"
 							buttonColour="bg-red-400"
-							buttonHoverColour="hover:bg-red-500"
+							buttonHoverColour="hover:bg-red-300"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzIxMjIxMzk3LnBuZw==/315x250%23c/TpH1tQ.png"
@@ -153,7 +153,7 @@ export default function Projects() {
 							pageHref="https://phenomrj.itch.io/neurowolke"
 							buttonLabel="Play →"
 							buttonColour="bg-red-400"
-							buttonHoverColour="hover:bg-red-500"
+							buttonHoverColour="hover:bg-red-300"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzEyMzc5ODI1LnBuZw==/315x250%23c/5inoHC.png"
@@ -166,7 +166,7 @@ export default function Projects() {
 							pageHref="https://phenomstudios.itch.io/mechgoat-tojam-2023"
 							buttonLabel="Play →"
 							buttonColour="bg-red-400"
-							buttonHoverColour="hover:bg-red-500"
+							buttonHoverColour="hover:bg-red-300"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzE2MTMyNzczLnBuZw==/315x250%23c/4gFgQO.png"
@@ -179,7 +179,7 @@ export default function Projects() {
 							pageHref="https://phenomrj.itch.io/ball-booster"
 							buttonLabel="Play →"
 							buttonColour="bg-red-400"
-							buttonHoverColour="hover:bg-red-500"
+							buttonHoverColour="hover:bg-red-300"
 						/>
 					</div>
 				</section>

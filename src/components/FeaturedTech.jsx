@@ -22,7 +22,7 @@ export default function FeaturedTech() {
 			<div className="mt-12">
 				<Link
 					to="/tech"
-					className="inline-block rounded-xl my-0 md:my-5 px-5 py-2 text-white bg-emerald-500 hover:bg-emerald-700 transition"
+					className="inline-block rounded-xl my-0 md:my-5 px-5 py-2 text-white bg-emerald-500 hover:bg-emerald-300 transition"
 				>
 					See the full stack →
 				</Link>

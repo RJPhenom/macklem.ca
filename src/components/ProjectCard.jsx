@@ -11,7 +11,7 @@ export default function ProjectCard({
 	href,
 	buttonLabel = "Visit →",
 	buttonColour = "bg-sky-500",
-	buttonHoverColour = "hover:bg-sky-600",
+	buttonHoverColour = "hover:bg-sky-300",
 }) {
 	const linkHref = href || pageHref || codeHref || "#";
 

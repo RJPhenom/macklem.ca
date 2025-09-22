@@ -8,7 +8,7 @@ export default function Tech() {
 				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-emerald-500 hover:bg-emerald-700 transition"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-emerald-500 hover:bg-emerald-300 transition"
 					>
 						&larr; Back
 					</Link>
