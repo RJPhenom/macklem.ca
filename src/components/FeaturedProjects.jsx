@@ -4,11 +4,16 @@ import ProjectCard from "./ProjectCard.jsx";
 export default function FeaturedProjects() {
 	return (
 		<section className="text-center">
-			<h2 className="text-2xl md:text-4xl mb-6 md:mb-12 font-semibold tracking-wide">Some of my Projects...</h2>
+			<h2 className="text-5xl md:text-7xl mb-6 md:mb-12 font-semibold tracking-wide">Some of my Projects...</h2>
 
-			<div className="mt-4 grid gap-6 md:grid-cols-2">
+			<p className="mt-6 px-12 md:px-3 text-justify md:text-center text-lg max-w-3xl mx-auto  mb-6 md:mb-16 ">
+				Here are just a handlful of my recent and favourite projects. I work on both web and game dev, so there’s a mix of
+				responsive web repositories and my latest jam projects on itch.io.
+			</p>
+
+			<div className="pl-6 mt-4 grid gap-0 sm:gap-6 md:grid-cols-2">
 				{/* Left column: GitHub projects */}
-				<div className="space-y-4">
+				<div>
 					<ProjectCard
 						imgSrc="/images/cbthumbnail.png"
 						imgAlt="Canadian Banker.ca preview"
@@ -59,7 +64,7 @@ export default function FeaturedProjects() {
 				</div>
 
 				{/* Right column: itch.io projects */}
-				<div className="space-y-4">
+				<div>
 					<ProjectCard
 						imgSrc="https://img.itch.zone/aW1nLzIyNzQ1MDU2LnBuZw==/180x143%23c/BT2qWP.png"
 						imgAlt="NETDECK preview"
@@ -70,8 +75,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-unity-plain", "devicon-csharp-plain", "devicon-json-plain"]}
 						pageHref="https://phenomrj.itch.io/netdeck"
 						buttonLabel="Play →"
-						buttonColour="bg-red-500"
-						buttonHoverColour="hover:bg-red-600"
+						buttonColour="bg-red-400"
+						buttonHoverColour="hover:bg-red-500"
 					/>
 					<ProjectCard
 						imgSrc="https://img.itch.zone/aW1nLzIxMjIxMzk3LnBuZw==/315x250%23c/TpH1tQ.png"
@@ -83,8 +88,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-godot-plain"]}
 						pageHref="https://phenomrj.itch.io/neurowolke"
 						buttonLabel="Play →"
-						buttonColour="bg-red-500"
-						buttonHoverColour="hover:bg-red-600"
+						buttonColour="bg-red-400"
+						buttonHoverColour="hover:bg-red-500"
 					/>
 					<ProjectCard
 						imgSrc="https://img.itch.zone/aW1nLzEyMzc5ODI1LnBuZw==/315x250%23c/5inoHC.png"
@@ -96,8 +101,8 @@ export default function FeaturedProjects() {
 						tags={["devicon-unity-plain", "devicon-csharp-plain"]}
 						pageHref="https://phenomstudios.itch.io/mechgoat-tojam-2023"
 						buttonLabel="Play →"
-						buttonColour="bg-red-500"
-						buttonHoverColour="hover:bg-red-600"
+						buttonColour="bg-red-400"
+						buttonHoverColour="hover:bg-red-500"
 					/>
 				</div>
 
@@ -105,7 +110,7 @@ export default function FeaturedProjects() {
 				<div className="md:col-span-2">
 					<Link
 						to="/projects"
-						className="inline-block rounded-xl my-2 md:my-5 px-5 py-2 text-white bg-red-500 hover:bg-red-600 transition mt-6"
+						className="inline-block rounded-xl my-2 md:my-5 px-5 py-2 text-white bg-red-400 hover:bg-red-500 transition mt-6"
 					>
 						Browse more projects →
 					</Link>

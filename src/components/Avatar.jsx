@@ -7,9 +7,10 @@ export default function Avatar() {
 			alt="RJ Macklem"
 			className="
         w-80 h-80
-				sm:w-128 sm:h-128
+				sm:w-96 sm:h-96
         object-cover
         rounded-full
+				bg-sky-300
       "
 		/>
 	);

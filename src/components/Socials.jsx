@@ -10,7 +10,7 @@ export default function Socials() {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="GitHub: RJPhenom"
-				className="rounded-full transition transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
+				className="rounded-full transition text-slate-700 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
 			>
 				<FaGithub />
 			</a>
@@ -20,7 +20,7 @@ export default function Socials() {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="Bluesky: phenomrj.bsky.social"
-				className="rounded-full transition transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
+				className="rounded-full transition text-blue-400 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
 			>
 				<FaBluesky />
 			</a>
@@ -30,7 +30,7 @@ export default function Socials() {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="X (Twitter): RJPhenom"
-				className="rounded-full transition transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
+				className="rounded-full transition text-black transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
 			>
 				<FaXTwitter />
 			</a>
@@ -40,7 +40,7 @@ export default function Socials() {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="LinkedIn: RJ Macklem"
-				className="rounded-full transition transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
+				className="rounded-full transition text-blue-500 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-cyan-500 p-1"
 			>
 				<FaLinkedin />
 			</a>

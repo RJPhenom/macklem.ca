@@ -9,20 +9,20 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects() {
 	return (
 		<div className="w-full h-full">
-			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[30svh] pb-16">
+			<div className="mx-auto max-w-3xl px-6 text-center min-h-screen pt-[12svh] pb-16">
 				<h1 className="text-7xl sm:text-8xl font-medium mb-12">Projects</h1>
 				<div className="flex justify-center items-center">
 					<Link
 						to="/"
-						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-500 hover:bg-red-700 transition"
+						className="inline-block text-xl rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-red-400 hover:bg-red-500 transition"
 					>
 						&larr; Back
 					</Link>
 				</div>
 
 				{/* WEB */}
-				<section className="mt-24">
-					<div className="flex flex-row justify-center items-center gap-3 text-4xl font-thin tracking-wide">
+				<section className="mt-16 sm:mt-24">
+					<div className="flex flex-row justify-center items-center gap-3 text-4xl tracking-wide">
 						<FaCode />
 						Web
 					</div>
@@ -57,7 +57,7 @@ export default function Projects() {
 
 				{/* GITHUB */}
 				<section className="mt-24">
-					<div className="flex flex-row justify-center items-center gap-3 text-4xl font-thin tracking-wide">
+					<div className="flex flex-row justify-center items-center gap-3 text-4xl tracking-wide">
 						<FaGithub />
 						GitHub
 					</div>
@@ -124,7 +124,7 @@ export default function Projects() {
 
 				{/* ITCH.IO */}
 				<section className="mt-24">
-					<div className="flex flex-row justify-center items-center gap-3 text-4xl font-thin tracking-wide">
+					<div className="flex flex-row justify-center items-center gap-3 text-4xl tracking-wide">
 						<FaItchIo />
 						itch.io
 					</div>
@@ -139,8 +139,8 @@ export default function Projects() {
 							tags={["devicon-unity-plain", "devicon-csharp-plain", "devicon-json-plain"]}
 							pageHref="https://phenomrj.itch.io/netdeck"
 							buttonLabel="Play →"
-							buttonColour="bg-red-500"
-							buttonHoverColour="hover:bg-red-600"
+							buttonColour="bg-red-400"
+							buttonHoverColour="hover:bg-red-500"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzIxMjIxMzk3LnBuZw==/315x250%23c/TpH1tQ.png"
@@ -152,8 +152,8 @@ export default function Projects() {
 							tags={["devicon-godot-plain"]}
 							pageHref="https://phenomrj.itch.io/neurowolke"
 							buttonLabel="Play →"
-							buttonColour="bg-red-500"
-							buttonHoverColour="hover:bg-red-600"
+							buttonColour="bg-red-400"
+							buttonHoverColour="hover:bg-red-500"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzEyMzc5ODI1LnBuZw==/315x250%23c/5inoHC.png"
@@ -165,8 +165,8 @@ export default function Projects() {
 							tags={["devicon-unity-plain", "devicon-csharp-plain"]}
 							pageHref="https://phenomstudios.itch.io/mechgoat-tojam-2023"
 							buttonLabel="Play →"
-							buttonColour="bg-red-500"
-							buttonHoverColour="hover:bg-red-600"
+							buttonColour="bg-red-400"
+							buttonHoverColour="hover:bg-red-500"
 						/>
 						<ProjectCard
 							imgSrc="https://img.itch.zone/aW1nLzE2MTMyNzczLnBuZw==/315x250%23c/4gFgQO.png"
@@ -178,8 +178,8 @@ export default function Projects() {
 							tags={["devicon-unity-plain", "devicon-csharp-plain"]}
 							pageHref="https://phenomrj.itch.io/ball-booster"
 							buttonLabel="Play →"
-							buttonColour="bg-red-500"
-							buttonHoverColour="hover:bg-red-600"
+							buttonColour="bg-red-400"
+							buttonHoverColour="hover:bg-red-500"
 						/>
 					</div>
 				</section>

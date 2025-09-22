@@ -10,8 +10,8 @@ export default function ProjectCard({
 	pageHref,
 	href,
 	buttonLabel = "Visit →",
-	buttonColour = "bg-cyan-500",
-	buttonHoverColour = "hover:bg-cyan-700",
+	buttonColour = "bg-sky-500",
+	buttonHoverColour = "hover:bg-sky-700",
 }) {
 	const linkHref = href || pageHref || codeHref || "#";
 
@@ -33,7 +33,7 @@ export default function ProjectCard({
 
 					{/* Right: content */}
 					<div className="min-w-0 h-full flex flex-col justify-center text-left">
-						<h3 className="text-md sm:text-2xl font-light tracking-wide md:truncate">{title}</h3>
+						<h3 className="text-md sm:text-2xl tracking-wide md:truncate">{title}</h3>
 						<a
 							className="mt-0.5 text-sm opacity-80 truncate underline hover:no-underline"
 							href={byHref}
@@ -42,7 +42,7 @@ export default function ProjectCard({
 						>
 							{byline}
 						</a>
-						<p className="hidden md:block mt-1 text-sm font-light truncate">{description}</p>
+						<p className="hidden md:block mt-1 text-sm truncate">{description}</p>
 
 						{/* Tags + button */}
 						<div className="mt-3 flex items-center gap-0 md:gap-2 text-xl">
@@ -50,7 +50,7 @@ export default function ProjectCard({
 								{tags.map((cls, i) => (
 									<span
 										key={i}
-										className="px-2 py-0.5 font-light no-shadow flex items-center gap-1"
+										className="px-2 py-0.5 no-shadow flex items-center gap-1"
 									>
 										<i
 											className={`${cls}`}
