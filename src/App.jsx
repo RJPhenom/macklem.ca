@@ -21,7 +21,7 @@ export default function App() {
 	return (
 		<>
 			{/* Hero */}
-			<div className="max-w-6xl text-black mt-16">
+			<div className="max-w-6xl text-black mt-16 3xl:mt-64 4xl:mt-96">
 				<div className="flex flex-col gap-6 gap-x-12 mb-24 md:mb-64">
 					{/* Row 1: Avatar | h1 */}
 					<div className="flex items-center justify-center">

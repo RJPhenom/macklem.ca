@@ -3,6 +3,7 @@
 
 /* Tailwind CSS */
 @import "tailwindcss";
+@config "../tailwind.config.js";
 
 :root {
 	font-family: "Urbanist", system-ui, Avenir, Helvetica, Arial, sans-serif;
