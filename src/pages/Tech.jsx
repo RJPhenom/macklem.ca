@@ -6,13 +6,13 @@ export default function Tech() {
 			<div className="mx-auto max-w-3xl px-0 sm:px-6 text-justify  min-h-screen pt-[12svh] pb-4">
 				<h1 className="text-6xl sm:text-8xl text-center font-medium mb-6">Tech I've Used</h1>
 
-				<div className="mt-16 space-y-16">
-					<p className="px-12 md:px-0 text-lg max-w-3xl">
+				<div className="mt-16 space-y-8 xs:space-y-12 sm:space-y-16">
+					<p className="px-4 sm:px-12 md:px-0 text-lg max-w-3xl">
 						Recently I've been building websites in React, Tailwind, TypeScript and Next.js, but I also have raw
 						experience in HTML5, CSS, and JavaScript. I'm always experimenting with new frameworks like Astro and
 						Flutter too.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto px-6 xs:px-0">
 						<i className="devicon-react-plain"></i>
 						<i className="devicon-tailwindcss-plain"></i>
 						<i className="devicon-typescript-plain"></i>
@@ -27,7 +27,7 @@ export default function Tech() {
 						<i class="devicon-astro-plain"></i>
 					</div>
 
-					<p className="px-12 md:px-0 text-lg max-w-3xl">
+					<p className="px-4 sm:px-12 md:px-0 text-lg max-w-3xl">
 						When it comes to GameDev, I primarily build Strategy games in Unreal Engine 5 (C++). Since Unreal Engine
 						is not designed for RTS-style video games, I had to build my own Gameplay Framework extension to support
 						my work. The SeinARTS Framework, my plugin for UE 5.6, is the first fully-featured, network-replicated
@@ -37,7 +37,7 @@ export default function Tech() {
 						I have led the Phenom Studios team at three back-to-back-to-back TOJams at George Brown College, and am
 						always looking forward to the next challenge.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto px-6 xs:px-0">
 						<i className="devicon-unrealengine-plain"></i>
 						<i className="devicon-unity-plain"></i>
 						<i className="devicon-godot-plain"></i>
@@ -46,7 +46,7 @@ export default function Tech() {
 						<i className="devicon-github-original"></i>
 					</div>
 
-					<p className="px-12 md:px-0 text-lg max-w-3xl">
+					<p className="px-4 sm:px-12 md:px-0 text-lg max-w-3xl">
 						And in my other travels, whether for work, a side hustle, or as a student at Durham College, I've
 						encountered all sorts of other tech.
 						<br />
@@ -54,7 +54,7 @@ export default function Tech() {
 						Whether its something new and agile like Python, or ancient tech like COBOL, I have a knack for picking up
 						new technologies quickly and applying them to whatever I'm working on.
 					</p>
-					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto">
+					<div className="grid grid-cols-3 md:grid-cols-6 gap-8 text-6xl sm:text-8xl place-items-center max-w-2xs sm:max-w-full mx-auto px-6 xs:px-0">
 						<i className="devicon-python-plain"></i>
 						<i className="devicon-dotnetcore-plain"></i>
 						<i className="devicon-docker-plain"></i>

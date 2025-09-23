@@ -18,9 +18,9 @@ export default function ProjectCard({
 	return (
 		<div className={"mx-auto w-full max-w-[552px]"}>
 			<div className="max-w-[552px] h-[167px]">
-				<div className="h-full grid grid-cols-[167px_1fr] gap-4 p-4">
+				<div className="h-full grid grid-cols-[112px_1fr] xs:grid-cols-[168px_1fr] gap-4 py-4">
 					{/* Left: image */}
-					<div className="h-full w-[167px] overflow-hidden rounded-lg border bg-zinc-800">
+					<div className="h-full w-[112px] xs:w-[168px] overflow-hidden rounded-lg border bg-zinc-800">
 						{imgSrc ? (
 							<img
 								src={imgSrc}

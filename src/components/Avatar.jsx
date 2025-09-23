@@ -6,7 +6,8 @@ export default function Avatar() {
 			src={PFP}
 			alt="RJ Macklem"
 			className="
-        w-80 h-80
+        w-64 h-64
+				xs:w-80 xs:h-80
 				sm:w-96 sm:h-96
         object-cover
         rounded-full

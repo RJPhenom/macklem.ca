@@ -4,7 +4,7 @@ import { FaBluesky } from "react-icons/fa6"; // If installed (react-icons v5+)
 
 export default function Socials() {
 	return (
-		<div className="flex flex-row gap-6 text-xl justify-center rounded-full py-2">
+		<div className="flex flex-row gap-6 text-xl justify-center rounded-full py-0 xs:py-2">
 			<a
 				href="https://github.com/RJPhenom"
 				target="_blank"

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export default function FeaturedTech() {
 	return (
 		<section className="text-center">
-			<h2 className="text-5xl md:text-7xl mb-6 md:mb-12 font-semibold tracking-wide">Tech I Use...</h2>
+			<h2 className="text-4xl xs:text-5xl md:text-7xl mb-6 md:mb-12 font-semibold tracking-wide">Tech I Use...</h2>
 
-			<p className="mt-6 px-12 md:px-3 text-justify md:text-center text-lg max-w-3xl mx-auto  mb-6 md:mb-16">
+			<p className="mt-6 text-justify md:text-center text-lg max-w-3xl mx-auto  mb-6 md:mb-16">
 				I’ve built responsive webapps in React and Next.js, built backends with Node.js and TypeScript, and I've built
 				full-feature, network-replicated game frameworks in Unreal Engine (C++).
 			</p>

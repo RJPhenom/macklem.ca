@@ -4,6 +4,7 @@
 
 	"singleQuote": false,
 	"jsxSingleQuote": false,
+	"quoteProps": "consistent",
 
 	"semi": true,
 	"trailingComma": "all",

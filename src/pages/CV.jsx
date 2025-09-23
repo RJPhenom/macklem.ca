@@ -4,17 +4,19 @@ import { Link } from "react-router-dom";
 export default function CV() {
 	return (
 		<div className="w-full h-full">
-			<div className="mx-auto max-w-xl px-6 text-center min-h-screen pt-[12svh] pb-4">
-				<h1 className="text-8xl sm:text-8xl font-medium mb-6">CV</h1>
+			<div className="mx-auto max-w-xl text-center min-h-screen pt-[12svh] pb-4">
+				<h1 className="text-6xl xs:text-8xl font-medium mb-6">CV</h1>
 
 				{/* EXPERIENCE */}
 				<section className="mt-16 sm:mt-24">
-					<h3 className="text-5xl sm:text-6xl ">Experience</h3>
+					<h3 className="text-3xl xs:text-5xl sm:text-6xl">Experience</h3>
 
-					<div className="mt-16 space-y-24">
+					<div className="mt-16 space-y-16 xs:space-y-24">
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">Phenom Studios, Inc.</h4>
-							<p className="text-lg mt-2 leading-relaxed">Founder & Senior Software Engineer</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								Phenom Studios, Inc.
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Founder & Senior Software Engineer</p>
 							<p className="text-md opacity-70 mt-1">October 2022 – Present</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -30,8 +32,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">CanadianBanker.ca</h4>
-							<p className="text-lg mt-2 leading-relaxed">Lead Developer</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								CanadianBanker.ca
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Lead Developer</p>
 							<p className="text-md opacity-70 mt-1">August 2025 – Present</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -44,8 +48,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">The Canadian Press</h4>
-							<p className="text-lg mt-2 leading-relaxed">New Business Account Manager</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								The Canadian Press
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">New Business Account Manager</p>
 							<p className="text-md opacity-70 mt-1">May 2021 – Feb 2022</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -57,8 +63,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">St. Joseph Communications</h4>
-							<p className="text-lg mt-2 leading-relaxed">Account Executive</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								St. Joseph Communications
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Account Executive</p>
 							<p className="text-md opacity-70 mt-1">May 2019 – Apr 2023</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -73,8 +81,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">News Knowledge Media</h4>
-							<p className="text-lg mt-2 leading-relaxed">Sales &amp; Marketing Executive</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								News Knowledge Media
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Sales &amp; Marketing Executive</p>
 							<p className="text-md opacity-70 mt-1">May 2019 – May 2021</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -89,8 +99,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">Laurentian Bank</h4>
-							<p className="text-lg mt-2 leading-relaxed">Senior Administrative Officer</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								Laurentian Bank
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Senior Administrative Officer</p>
 							<p className="text-md opacity-70 mt-1">December 2016 – May 2019</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -105,8 +117,10 @@ export default function CV() {
 						</article>
 
 						<article>
-							<h4 className="text-3xl sm:text-4xl tracking-wide">Bell Canada</h4>
-							<p className="text-lg mt-2 leading-relaxed">Associate, Quality Audit</p>
+							<h4 className="text-2xl xs:text-3xl sm:text-4xl font-medium xs:font-normal tracking-wide">
+								Bell Canada
+							</h4>
+							<p className="text-md xs:text-lg mt-2 leading-relaxed">Associate, Quality Audit</p>
 							<p className="text-md opacity-70 mt-1">May 2013 – October 2016</p>
 
 							<div className="text-lg mt-6 leading-relaxed text-left hang">
@@ -124,18 +138,18 @@ export default function CV() {
 
 				{/* EDUCATION */}
 				<section className="mt-24">
-					<h3 className="text-5xl sm:text-6xl">Education</h3>
+					<h3 className="text-3xl xs:text-5xl sm:text-6xl">Education</h3>
 
 					<div className="mt-16 mb-16 space-y-12">
 						<div>
 							<h4 className="text-2xl sm:text-3xl tracking-wide">University of Toronto</h4>
-							<p className="text-lg mt-1">B.A. (Hons.), Philosophy</p>
+							<p className="text-md mt-1">B.A. (Hons.), Philosophy</p>
 							<p className="text-md opacity-70 mt-1">May 2021</p>
 						</div>
 
 						<div>
 							<h4 className="text-2xl sm:text-3xl tracking-wide">Durham College</h4>
-							<p className="text-lg mt-1">Ontario Diploma · Computer Programming</p>
+							<p className="text-md mt-1">Ontario Diploma · Computer Programming</p>
 							<p className="text-md opacity-70 mt-1">August 2025</p>
 						</div>
 					</div>
