@@ -17,12 +17,12 @@ export default function App() {
 
 	return (
 		<>
-			<div className="max-w-6xl text-black mt-16 3xl:mt-64 4xl:mt-96 px-12 md:px-3 ">
+			<div className="max-w-6xl text-black mt-16 3xl:mt-64 4xl:mt-96">
 				{/* Hero */}
 				<Hero />
 
 				{/* Featured */}
-				<div className="mx-auto max-w-6xl space-y-24 xs:space-y-36 md:space-y-64">
+				<div className="mx-auto max-w-6xl space-y-24 xs:space-y-36 md:space-y-64  px-12 md:px-3">
 					<FeaturedTech />
 					<FeaturedProjects />
 				</div>

@@ -13,13 +13,13 @@ export default function Hero() {
 			</div>
 
 			{/* Row 2: Socials + Contact */}
-			<div className="flex flex-col items-center justify-center gap-2">
+			<div className="flex flex-col items-center justify-center gap-2  px-12 md:px-3">
 				<Socials />
 				<Contact />
 			</div>
 
 			{/* Row 3: Heading */}
-			<div className="flex items-center justify-center md:justify-center mt-3">
+			<div className="flex items-center justify-center md:justify-center mt-3  px-12 md:px-3">
 				<h1 className="text-5xl xs:text-6xl md:text-[clamp(4rem,8vw,7rem)] font-medium whitespace-nowrap">
 					Hi, I&apos;m&nbsp;
 				</h1>
@@ -32,13 +32,13 @@ export default function Hero() {
 			</div>
 
 			{/* Row 4: Paragraph */}
-			<p className="mt-4 xs:mt-8 text-justify md:text-center text-lg max-w-3xl mx-auto">
+			<p className="mt-4 xs:mt-8 text-justify md:text-center text-lg max-w-3xl mx-auto  px-12 md:px-3">
 				I’m a web and game dev who loves solving tricky problems with creative code. Being a new dad keeps me focused and
 				motivated, and I bring that hustle into every project I take on.
 			</p>
 
 			{/* Row 5: CV Link */}
-			<div className="flex justify-center items-center">
+			<div className="flex justify-center items-center  px-12 md:px-3">
 				<Link
 					to="/cv"
 					className="inline-block rounded-xl mt-2 md:mt-5 px-5 py-2 text-white bg-sky-500 hover:bg-sky-300 transition"
